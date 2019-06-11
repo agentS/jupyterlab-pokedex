@@ -97,7 +97,7 @@ class PokedexWidget extends Widget {
         return response.json();
       })
       .then(data => {
-        this.hName.innerText = data['name'];
+        this.hName.innerText = `#${data['id']} - ${data['name']}`;
         this.imgFront.src = data['sprites']['front_default'];
         this.imgFront.alt = data['name'];
         this.populateTypeContainer(data['types']);
