@@ -1,0 +1,26 @@
+.jp-pokedexWidget {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.jp-pokedexImage {
+    margin: auto;
+    flex: 1;
+}
+
+.jp-pokedexName {
+    margin: 20px auto;
+    flex: 0;
+}
+
+.jp-pokedexTypeContainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex: 0;
+}
+
+.jp-pokedexTypeElement {
+    margin: 6px;
+}

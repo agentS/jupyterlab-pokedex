@@ -1,7 +1,7 @@
 # jupyterlab-pokedex
 
-Quickly lookup Pokedex entries from Jupyter Lab
-
+Quickly lookup random Pokedex entries from Jupyter Lab.
+![Demo image showing the pokedex entry of Masquerain](img/demo.png)
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ Quickly lookup Pokedex entries from Jupyter Lab
 ## Installation
 
 ```bash
-jupyter labextension install jupyterlab-pokedex
+jupyter labextension install @agents/jupyterlab-pokedex
 ```
 
 ## Development

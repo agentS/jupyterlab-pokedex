@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab-pokedex",
+  "name": "@agents/jupyterlab-pokedex",
   "version": "0.1.0",
   "description": "Quickly lookup Pokedex entries from Jupyter Lab",
   "keywords": [
@@ -30,7 +30,11 @@
     "watch": "tsc -w"
   },
   "dependencies": {
-    "@jupyterlab/application": "^0.19.1"
+    "@jupyterlab/application": "^0.19.1",
+    "@jupyterlab/apputils": "^0.19.1",
+    "@phosphor/coreutils": "^1.3.1",
+    "@phosphor/messaging": "^1.2.3",
+    "@phosphor/widgets": "^1.7.1"
   },
   "devDependencies": {
     "rimraf": "^2.6.1",
